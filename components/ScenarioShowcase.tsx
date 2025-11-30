@@ -92,7 +92,7 @@ const ScenarioShowcase: React.FC = () => {
                      <div className="p-2 rounded-lg bg-white/40 dark:bg-white/10 backdrop-blur border border-black/5 dark:border-white/10 text-ink-950 dark:text-white">
                         {item.icon}
                      </div>
-                     <span className="text-xs text-jade-700 dark:text-jade-500 uppercase tracking-wider font-mono opacity-80">{item.desc}</span>
+                     <span className="text-base text-jade-700 dark:text-jade-500 uppercase tracking-wider font-mono opacity-80">{item.desc}</span>
                   </div>
                   
                   <h3 className="text-xl font-serif text-ink-950 dark:text-paper-50 mb-4 transition-colors">
@@ -100,12 +100,9 @@ const ScenarioShowcase: React.FC = () => {
                   </h3>
                   
                   <div className="h-0 overflow-hidden group-hover:h-auto transition-all duration-500 opacity-0 group-hover:opacity-100">
-                    <p className="text-base text-zinc-600 dark:text-zinc-300 font-light leading-relaxed mb-6 border-l border-jade-500 pl-4">
+                    <p className="text-base text-zinc-600 dark:text-zinc-300 font-light leading-relaxed border-l border-jade-500 pl-4">
                       {item.detail}
                     </p>
-                    <div className="flex items-center gap-2 text-xs text-ink-950 dark:text-white uppercase tracking-widest font-bold">
-                       ACTIVE <ArrowRight className="w-3 h-3" />
-                    </div>
                   </div>
                 </div>
               </div>

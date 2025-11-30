@@ -78,7 +78,7 @@ const Hero: React.FC = () => {
             {/* --- Explicit System Title --- */}
             <div className="mb-10 flex flex-col md:items-end gap-2">
                <h3 className="text-2xl md:text-3xl font-serif font-medium text-ink-950 dark:text-paper-50 tracking-wide leading-snug">
-                  古厝文旅景区无线传感与游客互动系统
+                  古厝文旅景区智能守护与游客互动系统
                </h3>
                <div className="flex items-center gap-3">
                   <div className="h-[1px] w-16 bg-jade-500/50"></div>
